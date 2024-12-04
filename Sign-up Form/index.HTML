@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="image-logo">
+        <div class="logo">
+            <img src="./image/odin-lined.png" alt="The Odin Project logo">
+            <p>Project: Sign-up Form</p>
+        </div>
+        <div class="image">
+            <img src="./image/han-chenxu-s87ngBxo4xg-unsplash.jpg" alt="Red flowers with white fruit">
+            <p>Foto de <a
+                    href="https://unsplash.com/pt-br/@hanchenxu?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Han
+                    Chenxu</a> na <a
+                    href="https://unsplash.com/pt-br/fotografias/flores-de-petalas-vermelhas-com-fundo-branco-s87ngBxo4xg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+            </p>
+        </div>
+
+    </div>
+    <main>
+        <h1>This form is just one of the learning projects from The Odin Project curriculum.</h1>
+        <h2>Just putting into practice forms using only HTML and CSS.</h2>
+        <form action="">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" value="" required>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phonenumber">Phone Number:</label>
+                <input type="tel" name="phonenumber" id="phonenumber" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+                <label for="checkpassword">Confirm Password:</label>
+                <input type="password" name="checkpassword" id="checkpassword" required>
+            </fieldset>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="#">Log in!</a></p>
+    </main>
+</body>
+
+</html>
